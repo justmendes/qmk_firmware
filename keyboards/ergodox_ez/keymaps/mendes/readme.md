@@ -35,10 +35,18 @@ This layout more closely resembles that of the Mac keyboard, and has some other 
 
 ## Mendes' additions
 
+You can see the incremental additions through the commit history. However,
+here's the tl;dr:
+
 - **The symbol layer has arrow keys where the `hjkl` keys are** - I'm a vimmer
   and I also never felt the need for a numpad style. So all the numbers in the
   symbol layer have been removed and replaced with vim-style navigation arrow
   keys.
+- **The media keys have been swapped to allow brightness control and more
+  intuitive volument and track control**.
+- **The layer triggers have been updated to the new API and made more accessible.** - Gabriel's version is now deprecated, `KC_FN2` doesn't work anymore.
+- **The left side alt now mimics macOS** - works as LALT instead of ALT SHFT. ALT SHFT has been moved to the right side.
+- **DEL now works like in macOS** - in macOS, `fn + BKSP` would send out `DELT`.  This has been now mimicked by making `fn` the trigger for the symbol layer and setting `DELT` to the same key as `BKSP`.
 
 **I'm always open to feedback and/or suggestions!**
 
