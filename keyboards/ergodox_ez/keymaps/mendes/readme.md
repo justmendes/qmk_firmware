@@ -42,11 +42,12 @@ here's the tl;dr:
   and I also never felt the need for a numpad style. So all the numbers in the
   symbol layer have been removed and replaced with vim-style navigation arrow
   keys.
-- **The media keys have been swapped to allow brightness control and more
-  intuitive volument and track control**.
+- **The media keys have been swapped to allow brightness control and more intuitive volument and track control**. - They also use `MO` instead of `LT` which has less delay to switch to the target layer.
 - **The layer triggers have been updated to the new API and made more accessible.** - Gabriel's version is now deprecated, `KC_FN2` doesn't work anymore.
 - **The left side alt now mimics macOS** - works as LALT instead of ALT SHFT. ALT SHFT has been moved to the right side.
 - **DEL now works like in macOS** - in macOS, `fn + BKSP` would send out `DELT`.  This has been now mimicked by making `fn` the trigger for the symbol layer and setting `DELT` to the same key as `BKSP`.
+- **Brackets now more easily accessible** - Gabriel's position of the brackets is too different from the default ANSI keyboard, so they are now more easily accessible from the symbol layer.
+- **There are now two `ESC` keys, mirrored** - I felt the need to do this because a lot of times I was using the mouse and had to let go of it just to press escape. The way they are mirrorred and positioned solves any potential accessibility issues.
 
 **I'm always open to feedback and/or suggestions!**
 
